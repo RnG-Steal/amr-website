@@ -297,4 +297,22 @@ colo{
 
 .about-text{
     width: 550px;
+} 
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+ .max-content h2{
+    font-size: 0.8em;
+ } 
+ .max-content h3{
+    font-size: 1.4em;
+ }
+}  
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
 }
